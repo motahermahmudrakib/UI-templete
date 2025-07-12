@@ -269,6 +269,7 @@ main {
   padding: 40px;
   gap: 60px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .container-title h1 {
@@ -277,7 +278,6 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
-  white-space: auto;
 }
 
 .container-from {
