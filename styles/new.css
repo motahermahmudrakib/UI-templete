@@ -151,6 +151,7 @@ line-height: normal;
 .reviews-section {
   text-align: center;
   padding: 60px 20px;
+  background: #F5F8FF;
 }
 
 .reviews-section h2 {
@@ -221,4 +222,35 @@ line-height: normal;
   display: block;
   font-size: 12px;
   color: #9ca3af;
+}
+
+/* Wev flow */
+
+.wevflow{
+  display: flex;
+width: 1140px;
+padding: 71px 150px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+border-radius: 14px;
+background: #FFF;
+}
+
+.wevflow h3{
+  color: #000;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+}
+
+.wevflow p{
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+}
+
+.wevflow img{
+  height: 364.773px;
+border-radius: 48px;
 }
