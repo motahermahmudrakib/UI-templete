@@ -260,7 +260,7 @@ main {
   border-radius: 48px;
 }
 
-/* Footer 01 */
+/* Label */
 
 .container {
   display: flex;
@@ -277,6 +277,7 @@ main {
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
+  white-space: auto;
 }
 
 .container-from {
