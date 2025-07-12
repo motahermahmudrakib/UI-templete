@@ -27,7 +27,14 @@ body {
   font-weight: 700;
   border: none;
   cursor: pointer;
+  
 }
+
+.btn:hover{
+  background-color: #908bcf;
+}
+
+
 
 /* Header (Hero Section) */
 .hero-section {
@@ -105,62 +112,60 @@ main {
 }
 
 /* productive user */
-.user{
+.user {
   width: 1140px;
-padding: 50px 80px;
-text-align: center;
-gap: 10px;
-border-radius: 24px;
-background: rgba(78, 71, 255, 0.10);
-margin-top: 116px;
-margin-bottom: 137px;
+  padding: 50px 80px;
+  text-align: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  margin-top: 116px;
+  margin-bottom: 137px;
 }
-.user-title{
+.user-title {
   color: #252432;
-text-align: center;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
-
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
 }
-.productive-container{
+.productive-container {
   display: flex;
   justify-content: space-evenly;
   margin-top: 40px;
 }
 
-.p-title{
-
-  color:  #4E47FF;
+.p-title {
+  color: #4e47ff;
   font-family: inter;
-font-size: 80px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.p-description{
-  color: rgba(0, 0, 0, 0.50);
+.p-description {
+  color: rgba(0, 0, 0, 0.5);
 
-text-align: center;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 /* review section */
 .reviews-section {
   text-align: center;
   padding: 60px 20px;
-  background: #F5F8FF;
+  background: #f5f8ff;
 }
 
 .reviews-section h2 {
- color: #252432;
-text-align: center;
-font-size: 42px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  color: #252432;
+  text-align: center;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .reviews-container {
@@ -178,7 +183,7 @@ line-height: normal;
   padding: 20px;
   width: 300px;
   text-align: left;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .stars {
@@ -226,33 +231,33 @@ line-height: normal;
 
 /* Wev flow */
 
-.wevflow{
+.wevflow {
   display: flex;
-width: 1140px;
-padding: 71px 150px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 20px;
-border-radius: 14px;
-background: #FFF;
+  width: 1140px;
+  padding: 71px 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 14px;
+  background: #fff;
 }
 
-.wevflow h3{
+.wevflow h3 {
   color: #000;
-font-size: 50px;
-font-style: normal;
-font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
 }
 
-.wevflow p{
-  color: rgba(0, 0, 0, 0.50);
+.wevflow p {
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
-.wevflow img{
+.wevflow img {
   height: 364.773px;
-border-radius: 48px;
+  border-radius: 48px;
 }
 
 /* Footer 01 */
@@ -267,11 +272,11 @@ border-radius: 48px;
 }
 
 .container-title h1 {
-color: #000;
-font-size: 97px;
-font-style: normal;
-font-weight: 700;
-line-height: 120%;
+  color: #000;
+  font-size: 97px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 .container-from {
@@ -287,11 +292,11 @@ form {
 }
 
 label {
-color: #000;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 120%
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
 }
 
 input,
@@ -309,30 +314,21 @@ textarea {
   height: 100px;
 }
 
-button {
-
-}
-
-button:hover {
-  background-color: #4338ca;
-}
-
-
 .footer {
   text-align: center;
   padding: 60px 20px;
   color: #6b7280;
- border-top: 1px solid rgba(0, 0, 0, 0.10);
-background: #FFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
 }
 
 .logo {
-color:  #4E47FF;
-text-align: center;
-font-size: 100px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
+  color: #4e47ff;
+  text-align: center;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
 }
 .description {
   font-size: 16px;
@@ -347,10 +343,10 @@ line-height: normal;
   display: flex;
   justify-content: center;
   gap: 40px;
-  color: #8987A1;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
+  color: #8987a1;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .footer-links li a {
